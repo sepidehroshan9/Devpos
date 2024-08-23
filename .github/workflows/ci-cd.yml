@@ -35,7 +35,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: sepehrsharafi/devops-app:latest
+          tags: sepidehroshan9/devops-app:latest
 
       - name: deploy
         uses: appleboy/ssh-action@master
