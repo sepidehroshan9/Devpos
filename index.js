@@ -4,5 +4,5 @@ const port=8080;
 app.get('/',(req,res)=>{
     res.send('Hello world!');});
 
-    app.listen(port,()=>{console.log('Server is running ot  http://localhost:${port?}/');
+    app.listen(port,()=>{console.log('Server is running ot  http://localhost:${port}/');
 });
